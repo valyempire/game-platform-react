@@ -6,7 +6,7 @@ import { ChakraProvider, ColorModeScript } from "@chakra-ui/react";
 import theme from "./theme.ts";
 import "./index.css";
 import { RouterProvider } from "react-router-dom";
-import router from "./Routes.tsx";
+import router from "./routes.tsx";
 
 const queryClient = new QueryClient();
 
