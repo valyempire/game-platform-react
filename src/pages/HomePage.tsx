@@ -24,10 +24,10 @@ const HomePage = () => {
           </GridItem>
         </Show>
         <GridItem area="main">
-          <Box paddingLeft={2}>
+          <Box paddingLeft={1}>
             <GameHeading />
             <Flex marginBottom={5}>
-              <Box marginRight={5}>
+              <Box marginRight={1}>
                 <PlatformSelector />
               </Box>
               <SortSelector />
